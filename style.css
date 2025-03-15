@@ -1,0 +1,50 @@
+body {
+    background-color: darkgray; /* Fondo gris oscuro */
+    font-family: Arial, sans-serif; /* Fuente Arial */
+    display: flex; /* Usamos flexbox para centrar el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
+    margin: 0; /* Sin márgenes */
+}
+
+.gameArea {
+    background-color: #333; /* Fondo gris oscuro para el área del juego */
+    padding: 80px; /* Aumenta el espaciado interno */
+    border: 10px solid #ccc; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center; /* Alinear texto al centro */
+    width: 80%; /* Aumenta el ancho del contenedor */
+    max-width: 800px; /* Establece un ancho máximo más grande */
+}
+
+h1 {
+    color: darkred; /* Título en rojo oscuro */
+    font-size: 3em; /* Aumenta el tamaño de la letra del título */
+}
+
+p {
+    color: darkred; /* Texto en rojo oscuro */
+    margin: 20px 0; /* Espacio arriba y abajo */
+    font-size: 2em; /* Aumenta el tamaño de la letra del párrafo */
+}
+
+#output {
+    color: darkred; /* Cambia el color del texto a rojo oscuro */
+    font-size: 1.5em; /* Aumenta el tamaño de la letra */
+    margin: 20px 0; /* Espacio arriba y abajo */
+}
+
+button {
+    background-color: blue; /* Fondo azul del botón */
+    color: rgb(255, 255, 255); /* Texto blanco */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 15px 30px; /* Aumenta el espaciado interno del botón */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    font-size: 1.5em; /* Aumenta el tamaño de la letra del botón */
+}
+
+button:hover {
+    background-color: darkblue; /* Color más oscuro al pasar el mouse */
+}
